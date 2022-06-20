@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+        .flex{
+            display: flex;
+            width :calc(100%~200px);
+            padding: 10px 50px;
+            border: radius 50px;
+        
+        }
+
+        .right{
+            width: 1500px;
+            text-align: right;
+        }
+
+
+        div{
+        background-color: white;
+        color: black;
+        }
+
+        li{
+        display: inline-block;
+        width: 100px;
+        text-decoration: none;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            
+        }
+
+        a:hover{
+            background-color: gray;
+        }
+
+
+
+    .example{
+        position: relative;
+        animation-name: fadeIn;
+        animation-duration: 5s;
+        float: left;
+        
+    }
+
+
+
+
+p{
+    animation-name: tcolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes fadeIn{
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+
+
+
+
+.center{
+    text-align: center;
+    font-size: 60px;
+
+}
+
+ul{
+    display: table;
+}
+li{
+    display: table-cell;
+    
+}
+
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <div class="flex"><div><a href="INDEX.HTML"><img src="https://search.pstatic.net/sunny/?src=http%3A%2F%2Fwww.matcl.com%2Ffiles%2Fattach%2Fimages%2F2791205%2F509%2F857%2F002%2Fd2378b206bd939a2041585df518c2daa.jpg&type=sc960_832" alt="home" width="70"></a></div>
+
+
+    <div class="right"><nav><ul><h3>
+
+        <li><a href="INDEX.HTML">Home</a></li>
+        <li><a href="Clothes.html">Clothes</a></li>
+        <li><a href="QandA.html">F.Q.A</a></li>
+        
+        
+    </ul></nav></div></div></h3>
+
+    
+    <div class="example">
+
+
+    <form action="/평가.html"method="get">
+    
+    <fieldset style="width: 250px;">
+    <legend>평가</legend>
+    좋다<input type="radio"name="evaluation"value="good"><br>
+    보통<input type="radio"name="evaluation"value="usually"><br>
+    좋지 않다<input type="radio"name="evaluation"value="bad"><br>
+</fieldset>
+
+
+질문  : <textarea cols="20" rows="2"  ></textarea><br>
+<input type="submit" value="보내기"   /> <input type="reset"value="초기화">
+</form>
+</body>
+</html>
